@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'inter-regular';
+    src: url('../../res/font/Inter-Regular.ttf');
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+    header{
+
+        .header-content{
+
+            height: 100px;
+            background: #FCFCFC;
+            border-bottom: 5px solid #B6B6B6;
+            display: flex;
+
+        }
+
+        .form-content{
+
+            width: max-content;
+            height: max-content;
+            margin: auto;
+
+        }
+
+        .search-bar-content{
+
+            margin: auto;
+            height: 60px;
+            width: max-content;
+            padding: 0px 86.5px;
+            border-radius: 15px;
+            background: #E1FDFF;
+            display: flex;
+            transition: 0.1s;
+
+            &:hover{
+
+                transition: 0.1s;
+                background: #a5c7ff;
+
+            }
+
+        }
+
+        .search-bar {
+            
+            background: transparent;
+            border: none;
+            width: 1000px;
+            outline: none;
+            font-size: 15px;
+            padding: 0;
+            color: #000000;
+            
+            &::placeholder{
+
+                color: rgba(0, 0, 0, 1);
+                font-family: 'inter-regular';
+                font-weight: 400;
+                font-size: 15px;
+                font-style: normal;
+                align-items: center;
+
+            }
+          
+        }
+
+        .pos-search-bar{
+
+            margin: auto;
+
+        }
+
+    }
+
+}
+
+.click{
+
+    background: #a5c7ff;
+
+}
